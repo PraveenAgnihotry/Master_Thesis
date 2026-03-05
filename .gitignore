@@ -1,5 +1,6 @@
 # Ignore data folder (large datasets)
 data/
+.github/copilot-instructions.md
 
 # Python
 __pycache__/
