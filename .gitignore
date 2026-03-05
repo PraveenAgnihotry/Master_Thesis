@@ -1,0 +1,34 @@
+# Ignore data folder (large datasets)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (optional: comment out if you want to track small models)
+*.pth
+*.pt
+*.ckpt
+*.h5
